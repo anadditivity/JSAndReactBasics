@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced exercise 8</title>
+</head>
+
+<body>
+
+<h1>
+    Advanced exercise 8
+</h1>
+<h2>
+    Use three input fields in frontend to calculate single-digit checksum.
+</h2>
+
+<input  id="inputField1"
+        type="text"
+        pattern="$[0-9]{4}^"
+        title="Input a 4-digit number here">
+<input  id="inputField2"
+        type="text"
+        pattern="$[0-9]{4}^"
+        title="Input a 4-digit number here">
+<input  id="inputField3"
+        type="text"
+        pattern="$[0-9]{4}^"
+        title="Input a 4-digit number here">
+<button onclick="getChecksum()">Calculate checksum</button>
+<h2 id="outputElement">Output should appear here.</h2>
+
+<script src="/src/advExercisesJS/advEx8.js"></script>
+</body>
+
+</html>

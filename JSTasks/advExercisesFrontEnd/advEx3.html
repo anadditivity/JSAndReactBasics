@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/advExercisesFrontEnd/advEx3.css">
+    <title>Advanced exercise 3</title>
+</head>
+
+<body>
+
+<h1>
+    Advanced exercise 3
+</h1>
+<h2>
+    Write a JavaScript program to generate a random RGB colour code.
+    Use a button in frontend to trigger the colour generation and output the colour in a div of width 100px and height 100px in the frontend.
+</h2>
+<p>The hint said to use hexadecimal, but I went for 0-255 instead... oops!</p>
+<p>There's probably a module that converts numeric values to hexadecimal? I'll look it up.</p>
+<p>[2 minutes later] Indeed, number.toString(16). Now I know!</p>
+
+<button onclick="generateRandomRGBCode()">Generate an RGB code</button>
+<br><br>
+<div class="outputBox" id="outputObject"></div>
+
+
+<script src="/src/advExercisesJS/advEx3.js"></script>
+</body>
+
+</html>

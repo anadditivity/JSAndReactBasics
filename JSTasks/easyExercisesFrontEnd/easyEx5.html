@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easy exercise 5</title>
+</head>
+
+<body>
+
+<h1>
+    Easy exercise 5
+</h1>
+<h2>
+    Write a JavaScript program to find the value which is nearest to 99 from two different given integer values.
+    Use two input fields and a h2 node to output which number is nearer to 99.
+    Handle the situation if someone enters two same values by outputting a warning in a h3 frontend node.
+</h2>
+
+<input type="text"
+       id="inputElement1"
+       pattern="(0|[1-9][0-9]*)"
+       title="Input a number here">
+<input type="text"
+       id="inputElement2"
+       pattern="(0|[1-9][0-9]*)"
+       title="Input a number here">
+<button onclick="checkInputs()">Find the closer input</button>
+<h3 id="warningField"></h3>
+<h2 id="output">The output should appear here</h2>
+
+
+<script src="/src/easyExercisesJS/easyEx5.js"></script>
+</body>
+
+</html>

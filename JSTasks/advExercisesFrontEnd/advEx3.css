@@ -1,0 +1,6 @@
+.outputBox {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
